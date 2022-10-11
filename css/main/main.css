@@ -1,0 +1,33 @@
+.main h2 {
+  margin-top: 40px;
+}
+.main span {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.main-prioridades {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border-left: 10px solid #ffd1be;
+  padding: 20px 20px;
+  margin-top: 5px;
+}
+.main-prioridades li + li {
+  margin-top: 20px;
+}
+.main-prioridades li::before {
+  margin-right: 10px;
+}
+.main-prioridades li:nth-child(1)::before {
+  content: "01.";
+  color: #b4fff2;
+}
+.main-prioridades li:nth-child(2)::before {
+  content: "02.";
+  color: #ffd1be;
+}
+.main-prioridades li:nth-child(3)::before {
+  content: "03.";
+  color: #707070;
+}
