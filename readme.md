@@ -13,4 +13,4 @@
 <h1>Autor: </h1>
 <p>Gabriel Eustaquio</p>
 
-<img src="./imagens/vegan.PNG">
+<img src="./imagens/burgerFood.PNG">
